@@ -1,0 +1,32 @@
+{% include "header.html" %}
+
+<h1>Accueil</h1>
+<h2>{{ title }}</h2>
+<p><a href="/films/add">Ajouter un nouveau film</a></p>
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Titre</th>
+            <th>Durée</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for movie in model %}
+            <tr>
+                <td>{{ movie.id }}</td>
+                <td>{{ movie.title }}</td>
+                <td>{{ movie.duration }}</td>
+                <td>
+                    <a href="/films/edit/{{ movie.id }}">Modifier</a>
+                    <a href="/films/delete/{{ movie.id }}">Supprimer</a>
+                    <a href="/films/{{ movie.id }}">Afficher</a>
+                </td>
+            </tr>
+        {% endfor %}
+        
+    </tbody>
+</table>
+
+{% include "footer.html" %}

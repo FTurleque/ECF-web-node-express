@@ -1,0 +1,18 @@
+{% include "header.html" %}
+
+<h1>{{ title }}</h1>
+
+<p><a href="/movies">Retour a la liste des films</a></p>
+
+<h2>Film n°{{ model.id }}</h2>
+
+<ul>
+    <li>{{ model.title }}</li>
+    <li>{{ model.duration }}</li>
+</ul>
+
+<p>
+    <a href="/movies/edit/{{ model.id }}">Modifier ce film</a> | <a href="/movies/delete/{{ model.id }}">Supprimer ce film</a>
+</p>
+
+{% include "footer.html" %}

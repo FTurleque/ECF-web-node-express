@@ -1,0 +1,22 @@
+{% include "header.html" %}
+
+<h1>Ajouter d'un film</h1>
+<p><a href="/films">Retour à la liste des films</a></p>
+
+{% for error in errors %}
+    <p class="danger">{{ error.param }} : {{ error.msg }}</p>
+{% endfor %}
+
+<form action="" method="post">
+    <div>
+        <label for="title">Titre :</label> <input type="text" id="title" name="title" required>
+    </div>
+    <div>
+        <label for="duration">Durée :</label> <input type="text" id="duration" name="duration" required>
+    </div>
+    <div>
+        <button type="submit">Enregistrement du film</button>
+    </div>
+</form>
+
+{% include "footer.html" %}

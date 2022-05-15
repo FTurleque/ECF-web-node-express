@@ -1,0 +1,28 @@
+{% include "header.html" %}
+
+<h1>Modifier un film</h1>
+
+<p><a href="/films">Retour à la liste des films</a></p>
+
+<h2>Candidat N°{{ model.id }}</h2>
+
+{% for error in errors %}
+    <p class="danger">{{ error.param }} : {{ error.msg }}</p>
+{% endfor %}
+
+<form action="" method="post">
+    <input type="hidden" name="id" value="{{ model.id }}">
+    <div>
+        <label for="title">Titre :</label> <input type="text" id="title" name="title" value="{{ model.title }}">
+    </div>
+    <div>
+        <label for="duration">Durée :</label> <input type="text" id="duration" name="duration" value="{{ model.duration }}">
+    </div>
+    <div>
+        <button type="submit">Enregistrer les modifications</button>
+    </div>
+</form>
+
+<p><a href="/movies/{{ model.id }}">Retour à la fiche film</a> | <a href="/movies/delete/{{ model.id }}">Supprimer ce film</a></p>
+
+{% include "footer.html" %}

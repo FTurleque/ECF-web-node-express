@@ -1,0 +1,18 @@
+{% include "header.html" %}
+
+<h1>Supprimer un film</h1>
+<p><a href="/films">Retour à la liste des films</a></p>
+
+<ul>
+    <li>{{ model.title }}</li>
+    <li>{{ model.duration }}</li>
+</ul>
+
+<h2>Supprimer un film</h2>
+
+<form method="post">
+    <button type="submit">Oui</button>
+    <a href="/films" class="btn danger">Non</a>
+</form>
+
+{% include "footer.html" %}
