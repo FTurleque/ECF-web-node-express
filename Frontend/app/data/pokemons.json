@@ -1,0 +1,223 @@
+[
+	{
+		"id": 1,
+		"name": "Bulbizarre",
+		"type": [
+			"Plante",
+			"Poison"
+		]
+	},
+	{
+		"id": 5,
+		"name": "Reptincel",
+		"type": [
+			"Feu"
+		]
+	},
+	{
+		"id": 9,
+		"name": "Tortank",
+		"type": [
+			"Eau"
+		]
+	},
+	{
+		"id": 19,
+		"name": "Rattata",
+		"type": [
+			"Normal"
+		]
+	},
+	{
+		"id": 25,
+		"name": "Pikachu",
+		"type": [
+			"Electrique"
+		]
+	},
+	{
+		"id": 37,
+		"name": "Goupix",
+		"type": [
+			"Feu"
+		]
+	},
+	{
+		"id": 44,
+		"name": "Ortide",
+		"type": [
+			"Plante",
+			"Poison"
+		]
+	},
+	{
+		"id": 50,
+		"name": "Taupiqueur",
+		"type": [
+			"Sol"
+		]
+	},
+	{
+		"id": 56,
+		"name": "Férosinge",
+		"type": [
+			"Combat"
+		]
+	},
+	{
+		"id": 67,
+		"name": "Machopeur",
+		"type": [
+			"Combat"
+		]
+	},
+	{
+		"id": 72,
+		"name": "Tentacool",
+		"type": [
+			"Eau",
+			"Poison"
+		]
+	},
+	{
+		"id": 75,
+		"name": "Gravalanch",
+		"type": [
+			"Roche",
+			"Sol"
+		]
+	},
+	{
+		"id": 83,
+		"name": "Canarticho",
+		"type": [
+			"Normal",
+			"Vol"
+		]
+	},
+	{
+		"id": 89,
+		"name": "Grotadmorv",
+		"type": [
+			"Poison"
+		]
+	},
+	{
+		"id": 98,
+		"name": "Krabby",
+		"type": [
+			"Eau"
+		]
+	},
+	{
+		"id": 106,
+		"name": "Kicklee",
+		"type": [
+			"Combat"
+		]
+	},
+	{
+		"id": 108,
+		"name": "Excelangue",
+		"type": [
+			"Normal"
+		]
+	},
+	{
+		"id": 112,
+		"name": "Rhinoféros",
+		"type": [
+			"Sol",
+			"Roche"
+		]
+	},
+	{
+		"id": 114,
+		"name": "Saquedeneu",
+		"type": [
+			"Plante"
+		]
+	},
+	{
+		"id": 126,
+		"name": "Magmar",
+		"type": [
+			"Feu"
+		]
+	},
+	{
+		"id": 129,
+		"name": "Magikarp",
+		"type": [
+			"Eau"
+		]
+	},
+	{
+		"id": 130,
+		"name": "Léviator",
+		"type": [
+			"Eau",
+			"Vol"
+		]
+	},
+	{
+		"id": 135,
+		"name": "Voltali",
+		"type": [
+			"Electrique"
+		]
+	},
+	{
+		"id": 138,
+		"name": "Amonita",
+		"type": [
+			"Roche",
+			"Eau"
+		]
+	},
+	{
+		"id": 145,
+		"name": "Elektor",
+		"type": [
+			"Electrique",
+			"Vol"
+		]
+	},
+	{
+		"id": 237,
+		"name": "Kapoera",
+		"type": [
+			"Combat"
+		]
+	},
+	{
+		"id": 257,
+		"name": "Braségali",
+		"type": [
+			"Feu",
+			"Combat"
+		]
+	},
+	{
+		"id": 286,
+		"name": "Chapignon",
+		"type": [
+			"Plante",
+			"Combat"
+		]
+	},
+	{
+		"id": 377,
+		"name": "Regirock",
+		"type": [
+			"Roche"
+		]
+	},
+	{
+		"id": 382,
+		"name": "Kyogre",
+		"type": [
+			"Eau"
+		]
+	}
+]
